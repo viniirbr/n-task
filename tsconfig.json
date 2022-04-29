@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib":["ES2021"],
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2021"
+    },
+    "watchOptions": {
+        "watchDirectory": "useFsEvents"
+    },
+    "include": ["src/**/*"]
+}
