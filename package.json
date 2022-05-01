@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npx tsc --watch\" \"node ./dist/index.js\""
+    "start": "concurrently \"npx tsc --watch\" \"nodemon ./dist/index.js\""
   },
   "keywords": [],
   "author": "Vinicius Ribeiro",

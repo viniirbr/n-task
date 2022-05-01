@@ -1,11 +1,9 @@
 import express, { Request, Response } from 'express'
-const app = express();
+import app from './routes';
 
-const PORT = process.env.PORT || 3001;
 
-app.get('/', (req: Request, res: Response) => {
-    res.send("Olá")
-}) 
+const PORT = process.env.PORT || 3000;
+
 
 app.listen(PORT, () => {
     console.log(`Servidor conectado em localhost:${PORT}`)
